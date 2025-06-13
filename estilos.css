@@ -34,7 +34,7 @@ img {
     background-image: linear-gradient(#ff0000, #000000);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
     margin: 10%;
 }
