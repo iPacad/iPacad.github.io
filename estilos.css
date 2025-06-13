@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#ffffe3, #ffffff);
+    font-family: cursive, fantasy;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    background-image: url(media/viernes133.png);
+}
+
+.nombre {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.texto {
+    font-family: gothic medium, cursive;
+    background-image: linear-gradient(#ff0000, #000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10%;
+}
